@@ -1,0 +1,149 @@
+@import "tailwindcss";
+body{
+  background-color: black;
+  /* bg-black */
+ display: flex;
+ /* flex  */
+ align-items: center;
+ /* items-center */
+ text-align: center;
+ /* text-center */
+}
+.card{
+  background-color: white;
+  /* bg-white */
+  border: none;
+  /* border-none */
+  outline: none;
+  /* outline-none */
+  height: 60vh;
+  /* size-[height: 60vh;] */
+  border-radius: 5px;
+  /* rounded-s-md */
+  width: 20vw;
+  /* w-[20vw] */
+  display: flex;
+  /* flex  */
+  flex-direction: column;
+  /* flex-col  */
+  justify-content: center;
+  /* justify-center; */
+  align-items: center;
+  /* align center  */
+  gap: 10px;
+  /* gap-[10px] */
+  padding: 20px;
+  /* p-[20px] */
+  box-shadow: 10px 10px 10px rgba(180, 54, 54, 0.7);
+  /* shadow -[10px 10px 10px rgba(180, 54, 54, 0.7)] */
+}
+.image
+{
+  width: 10vw;
+  /* w-[10vw] */
+  height: 20vh;
+  /* h-[20vh] */
+  border-radius: 30px;
+  /* rounded-3xl  */
+  box-shadow: 10px 20px 10px rgba(0,0,0,.2);
+  /* shadow-[10px 20px 10px rgba(0,0,0,.2)] */
+  margin-bottom: 30px;
+  /* mb-[30px] */
+ 
+}
+.h2{
+  font-size: 20px;
+  /* text-xl */
+  font-weight: 700;
+  /* font-bold */
+}
+.price{
+  font-size: 20px;
+  /* text-xl */
+  color: red;
+  /* text-red  */
+
+}
+.main{
+  display: flex;
+  /* flex  */
+  justify-content: center;
+  /* justify-center */
+  align-items: center;
+  /* align-center  */
+  flex-wrap: wrap;
+  /* flex-wrap  */
+  gap: 20px;
+  /* gap-[20px] */
+  margin-top: 90px;
+  /* mt-[90px] */
+}
+.header{
+  background-color: white;
+  /* bg-white */
+  color: black;
+  /* text-black */
+}
+.logo{
+  color: rgb(206, 65, 89);
+  /* text-pink  */
+  font-size: 20px;
+  /* text-xl */
+  font-weight: 700;
+  /* font-bold */
+  text-shadow: 2px 2px 3px rgba(0,0,0,.2);
+  /* shadow-[value]  */
+  margin: 10px;
+  /* m-[10px] */
+}
+.input{
+  background-color: black;
+  /* bg-black  */
+  color: white;
+  /* text-white  */
+}
+.btn{
+  background-color: black;
+  /* bg-black  */
+  color: white;
+  /* text-white  */
+
+}
+.nav{
+  display: flex;
+  /* flex  */
+  justify-content: space-between;
+  /* justify-space-between  */
+  padding: 10px;
+  /* p-[10px]  */
+}
+.header{
+  background-color: black; 
+  /* bg-black */
+  position: fixed;
+  /* fixed top-0  */
+  width: 100%;
+  /* width: -full; */
+  top: 0;
+}
+.inputbox{
+  padding: 10px;
+  /* p-[10px] */
+  display: flex;
+  /* flex  */
+  justify-content: space-between;
+  /* justify-space-between */
+  width: 400px;
+  /* w-[400px] */
+}
+input{
+  width: 250px;
+
+}
+
+.sorry{
+  margin-top:200px;
+  /* mt-[200px] */
+  margin-left: 600px;
+  /* ml-[600px] */
+}
