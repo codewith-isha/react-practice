@@ -1,0 +1,30 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.navbar{
+  display: flex;
+  justify-content: space-around;
+  font-size: 30px;
+  background-color: #000000;
+  padding: 20px;
+  color: white;
+  width: 100vw;
+}
+.navbar .links{
+  display: flex;
+  justify-content: space-around;
+  /* border: 1px solid red; */
+  width: 40vw;
+}
+.service{
+margin: 140px 500px;
+font-size: 30px;
+/* border:1px solid red; */
+padding: 4px;
+line-height: 2;
+}
+.heading{
+  color: rgb(192, 33, 59);
+}
